@@ -12,9 +12,7 @@ router.get('/', (req, res) => {
 router.post('/', (req, res) => {
     console.log("Recieved POST on /api/layout");
     console.log(req.body);
-    if(req.body.newsType && req.body.objects) {
-        fs.writeFileSync('./api/layout.json', JSON.stringify(req.body));
-    }
+    fs.writeFileSync('./api/layout.json', JSON.stringify(req.body));
     res.json({ done: true });
 })
 

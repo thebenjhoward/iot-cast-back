@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/c5a9d8bf-eace-4a34-b833-c746e195280f/resourceGroups/iot/providers/Microsoft.Web/sites/gonzaga-iot-back",
+    "appService.deploySubpath": ""
+}
